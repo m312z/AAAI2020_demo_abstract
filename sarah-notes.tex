@@ -1,0 +1,16 @@
+TODO's:
+\begin{itemize}
+    \item Describe the protocol
+    \item Describe the design process and information shaping 
+    \item The objective is to achieve maximal agent utility (minimize expected cost)as the primary objective. The secondary objective to minimize the other (hidden) costs. We also want to minimize the changes (so we can increase trust ?). Formulate this...
+\end{itemize}
+Design can be done at two levels:
+\begin{itemize}
+\item Path planning - we chance the map that is used by move base to generate the global cost map (or do we want to change move-base?) 
+\item Task planning - changing the information rosplan useses to generate plans.
+\end{itemize}
+
+Challenges:
+\begin{itemize}
+    \item We wanted to manipulate the cost map, but it is generated 'internally' in movebase
+\end{itemize}
